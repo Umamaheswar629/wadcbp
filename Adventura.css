@@ -1,0 +1,118 @@
+.adventura {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.adventura h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.adventura-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.adventura-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.adventura-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.adventura-image {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.adventura-details {
+    flex: 1;
+    padding-left: 15px;
+}
+
+.adventura-details h2 {
+    margin: 0 0 10px 0;
+    color: #34495e;
+    font-size: 24px;
+}
+
+.adventura-details p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+.adventura-more-details {
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.adventura-details a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.adventura-details a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.read-more-button,
+.book-tour-button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.read-more-button:hover,
+.book-tour-button:hover {
+    background-color: #216494;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-tour-button {
+    background-color: #e67e22;
+}
+
+.book-tour-button:hover {
+    background-color: #ca6416;
+}
+
+.adventura {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.adventura h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}   
